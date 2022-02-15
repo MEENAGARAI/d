@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-entity position='0 0 0'>
+                <a-camera></a-camera>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-sphere position='0 14 0' radius='2' color='#18f5df'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-sphere position='-0.8 14 1.5' radius='0.4' color='white'> 
+                    <a-entity position='-0.8 14 1.5' animation='property:rotation;to:360 0 0;loop:true;dur:20000'>
+                        <a-sphere position='-0.85 14 2' radius='0.1' color='black'/>
+                    </a-entity>
+                </a-sphere>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-sphere position='0.8 14 1.5' radius='0.4' color='white'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-sphere position='0.85 14 2' radius='0.1' color='black'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-box position='0 13 1.1' width='2' height='0.5' color='white'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-box position='0 8 0' width='7' height='9' color='#76ff14'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-cylinder position='-2 -1 0' radius='1' height='11' color='#0b03fc'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-cylinder position='2 -1 0' radius='1' height='11' color='#0b03fc'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-box position='-2.5 10 4' width='2' height='2' depth='7' rotation='0 0 0' color='#00ffdd'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-box position='2.5 10 4' width='2' height='2' depth='7' rotation='0 0 0' color='#00ffdd'/>
+            </a-entity>
+
+            <a-entity position='0 0 0'>
+                <a-cylinder position='0 17 0' radius='0.3' height='7' color='#fc0303'/>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
